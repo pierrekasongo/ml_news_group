@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "newsgroup"
+version = "0.1.0"
+description = "Classifying news by category"
+authors = ["Pierre Kasongo <pierrekasongo88@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+scikit-learn = "^1.2.2"
+pandas = "^1.5.3"
+joblib = "^1.2.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
